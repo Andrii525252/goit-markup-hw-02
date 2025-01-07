@@ -1,8 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: color: #434455;
-  background-color: #FFFFFF;
-  line-height: 1.5;
+  background-color: #fff;
+  font-size: 16px;
 }
 
 ul {
@@ -18,7 +17,7 @@ a {
   font-size: 18px;
   color: #2e2f42;
   font-weight: 700;
-   line-height: 1.17
+  line-height: 1.17;
 }
 
 .logo-web {
@@ -63,9 +62,12 @@ a {
 }
 
 h1 {
-  color: #fff;
   font-weight: 700;
   font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 
 .title-button {
