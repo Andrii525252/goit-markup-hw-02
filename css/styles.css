@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
-  background-color: #e5e5e5;
+  color: color: #434455;
+  background-color: #FFFFFF;
   line-height: 1.5;
 }
 
@@ -14,10 +14,11 @@ a {
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   color: #2e2f42;
   font-weight: 700;
+   line-height: 1.17
 }
 
 .logo-web {
@@ -27,27 +28,11 @@ a {
   font-weight: 700;
 }
 
-.studio {
+.navig {
   font-weight: 500;
 }
 
-.studio:hover {
-  color: #404bbf;
-}
-
-.portfolio {
-  font-weight: 500;
-}
-
-.portfolio:hover {
-  color: #404bbf;
-}
-
-.contacts {
-  font-weight: 500;
-}
-
-.contacts:hover {
+.navig:hover {
   color: #404bbf;
 }
 
