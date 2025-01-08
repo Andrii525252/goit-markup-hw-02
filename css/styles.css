@@ -17,7 +17,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -27,24 +27,38 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
 }
 
-.navig {
+.header-menu-item {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.navig:hover {
+.header-menu-item:hover {
   color: #404bbf;
 }
 
-.email {
-  color: #434455;
-  font-weight: 400;
+.header-menu-item:active {
+  color: #404bbf;
+}
+
+.contacts-data {
   font-style: normal;
+}
+
+.email {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .email:hover {
@@ -52,9 +66,11 @@ a {
 }
 
 .phone {
-  color: #434455;
   font-weight: 400;
-  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .phone:hover {
