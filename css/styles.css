@@ -15,17 +15,22 @@ a {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  color: #2e2f42;
   font-weight: 700;
-  line-height: 1.17;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.logo-web {
+.logo-studio {
   font-family: "Raleway", sans-serif;
-  color: #4d5ae5;
-  font-size: 18px;
   font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .navig {
