@@ -85,10 +85,14 @@ a {
   color: #404bbf;
 }
 
-h1 {
+.title {
+  background-color: #2e2f42;
+}
+
+.title-header {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
