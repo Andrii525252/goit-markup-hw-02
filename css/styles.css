@@ -85,12 +85,6 @@ a {
   color: #404bbf;
 }
 
-.site-face {
-  background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
-}
-
 h1 {
   font-weight: 700;
   font-size: 56px;
@@ -101,12 +95,20 @@ h1 {
 }
 
 .title-button {
-  width: 169px;
-  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 
-.button-text {
-  color: #fff;
-  font-weight: 500;
+.title-button:hover {
+  background-color: #404bbf;
+}
+
+.title-button:focus {
+  background-color: #404bbf;
 }
