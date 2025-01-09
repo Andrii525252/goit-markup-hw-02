@@ -14,7 +14,7 @@ a {
   text-decoration: none;
 }
 
-/* header */
+/*----------------------HEADER-------------------- */
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -70,7 +70,7 @@ a {
   color: #404bbf;
 }
 
-/* first section Title */
+/*------------------------------first section Title----------------------- */
 
 .title {
   background-color: #2e2f42;
@@ -104,7 +104,7 @@ a {
   background-color: #404bbf;
 }
 
-/* second section Features */
+/*----------------------------------Features------------------------------- */
 
 .list-title {
   font-weight: 500;
@@ -120,7 +120,7 @@ a {
   color: #434455;
 }
 
-/* third section Our Team */
+/*--------------------------------------Our Team---------------------------- */
 
 .team {
   background-color: #f4f4fd;
@@ -155,7 +155,7 @@ a {
   color: #434455;
 }
 
-/* Portfolio */
+/* --------------------------------------Portfolio -------------------------*/
 
 .portfolio-title {
   font-size: 36px;
@@ -180,7 +180,7 @@ a {
   color: #434455;
 }
 
-/* footer */
+/*------------------------------------footer -----------------------------*/
 
 .footer {
   background-color: #2e2f42;
