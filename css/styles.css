@@ -60,6 +60,23 @@ a {
   color: #2e2f42;
 }
 
+.header-container {
+  display: flex;
+  gap: 332px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 76px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
 .header-menu-item {
   font-weight: 500;
   font-size: 16px;
@@ -78,6 +95,14 @@ a {
 
 .contacts-data {
   font-style: normal;
+}
+
+.adress-list {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .data {
