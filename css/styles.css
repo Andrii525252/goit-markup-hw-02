@@ -6,15 +6,39 @@ body {
   font-weight: 400;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
 }
 
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 /*----------------------HEADER-------------------- */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -83,6 +107,10 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding-top: 188px;
+  padding-bottom: 292px;
+  max-width: 496px;
+  margin: 0 auto;
 }
 
 .title-button {
@@ -94,6 +122,10 @@ a {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+  width: 169px;
+  height: 56px;
+  display: block;
+  margin: 0 auto;
 }
 
 .title-button:hover {
@@ -106,18 +138,38 @@ a {
 
 /*----------------------------------Features------------------------------- */
 
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .features-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  max-width: 264px;
 }
 
 /*--------------------------------------Our Team---------------------------- */
